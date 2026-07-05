@@ -81,14 +81,19 @@ export function Footer() {
           </p>
         </div>
 
-        <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-navy-800 pt-8 sm:flex-row">
+        <div className="mt-8 grid gap-4 border-t border-navy-800 pt-8 text-center sm:text-left lg:grid-cols-[1fr_auto_1fr] lg:items-center">
           <p className="text-xs text-navy-400">
             &copy; {year} {siteConfig.name}. Educational content inspired by
             public health sources including the CDC, American Cancer Society,
             National Cancer Institute, NIDDK, and USPSTF.
           </p>
-          <p className="text-xs text-navy-400">
-            Built for awareness — not for diagnosis.
+
+          <p className="text-xs font-semibold tracking-wide text-sky-300">
+            A Product of Westforge Holdings Inc.
+          </p>
+
+          <p className="text-xs text-navy-400 lg:text-right">
+            Built for awareness - not for diagnosis.
           </p>
         </div>
       </Container>
